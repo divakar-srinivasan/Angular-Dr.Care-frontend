@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-signup',
   standalone: true,
   imports: [RouterLink,RouterLinkActive],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  templateUrl: './signup.component.html',
+  styleUrl: './signup.component.css'
 })
-export class HeaderComponent {
-    imageUrl: string ='../assets/brand1.png';
+export class SignupComponent {
+
 }

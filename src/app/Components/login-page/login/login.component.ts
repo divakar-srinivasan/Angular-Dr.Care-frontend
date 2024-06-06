@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-login',
   standalone: true,
   imports: [RouterLink,RouterLinkActive],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  templateUrl: './login.component.html',
+  styleUrl: './login.component.css'
 })
-export class HeaderComponent {
-    imageUrl: string ='../assets/brand1.png';
+export class LoginComponent {
+
 }
