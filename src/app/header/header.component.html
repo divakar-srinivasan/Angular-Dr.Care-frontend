@@ -7,33 +7,24 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse ms-lg-4" id="navbarScroll">
-            <ul class="navbar-nav me-auto gap-3 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <ul class="navbar-nav me-auto gap-5 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" routerLink="/home" routerLinkActive="active">Home</a>
+                <a class="nav-link active fs-4" aria-current="page" routerLink="/home" routerLinkActive="active">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Doctors</a>
+                <a class="nav-link fs-4" routerLink="/doctors" routerLinkActive="active">Book Appointment</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Hospitals</a>
+                <a class="nav-link fs-4" routerLink="/health" routerLinkActive="active">Health Feed</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Health Feed</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Book Test</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Surgery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Order Medicine</a>
+                <a class="nav-link fs-4" routerLink="/orders" routerLinkActive="active">Order Medicine</a>
               </li>
             </ul>
             <form class="d-flex gap-4 me-3 pe-2">
-                <input class="form-control " type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-                <button class="btn btn-outline-primary" type="submit" routerLink="/login" routerLinkActive="active">Login</button>
+                <input class="form-control w-100" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success w-50" type="submit">Search</button>
+                <button class="btn btn-outline-primary h-50 w-50" type="submit" routerLink="/signup" routerLinkActive="active">Login</button>
               </form>
 
           </div>

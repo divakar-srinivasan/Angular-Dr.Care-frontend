@@ -4,16 +4,16 @@
             <form class="was-validated">
                 <div class="row my-5"><h1>Signup</h1></div>
                 <div class="row mb-3">
-                    <input class="form-control is-invalid" type="text" placeholder="Username..." required>
+                    <input class="form-control is-invalid" type="text" [(ngModel)]="username" name="username" placeholder="Username..." required [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="row mb-3">
-                    <input class="form-control is-invalid" type="email" placeholder="Email..." required>
+                    <input class="form-control is-invalid" type="email" [(ngModel)]="email" name="email" placeholder="Email..." required [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="row mb-5">
-                    <input class="form-control is-invalid" type="password" placeholder="password..." required>
+                    <input class="form-control is-invalid" type="password" [(ngModel)]="password" name="password" placeholder="password..." required [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="row mb-3">
-                    <button type="submit" class="btn btn-success rounded-pill">SUBMIT</button>
+                    <button type="submit" class="btn btn-success rounded-pill" (click)="register()">SUBMIT</button>
                 </div>
                 <div class="row"><p>Already have an account? <a routerLink="/login" routerLinkActive="active">Login</a></p></div>
             </form>
@@ -24,7 +24,6 @@
             <img src="../../../../assets/facebook.png" alt="loading" class="col-2" height="32px" width="32px">
             <img src="../../../../assets/twitter.png" alt="loading" class="col-2" height="32px" width="32px">
             <img src="../../../../assets/instagram.png" alt="loading" class="col-2" height="34px" width="34px">
-
         </div>
     </div>
 </div>
