@@ -9,9 +9,9 @@
 .box {
     background-color: rgba(153, 149, 149, 0.4);
     border-radius: 10px;
-    width: 400px;
+    width: 500px;
     height: auto;
-    padding: 30px; 
+    padding: 50px; 
     margin-top: 50px;
     transition: transform 0.3s ease; 
 }
