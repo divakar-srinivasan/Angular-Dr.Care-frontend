@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule , HttpClient } from '@angular/common/http';
 import { Component , OnInit} from '@angular/core';
 
+
 @Component({
   selector: 'app-health',
   standalone: true,

@@ -5,6 +5,7 @@ import { SignupComponent } from './Components/login-page/signup/signup.component
 import { DoctorsComponent } from './Components/doctors/doctors.component';
 import { HealthComponent } from './Components/health/health.component';
 import { OrdersComponent } from './Components/orders/orders.component';
+import { MapsComponent } from './Components/maps/maps.component';
 
 
 export const routes: Routes = [
@@ -14,5 +15,6 @@ export const routes: Routes = [
     { path: 'signup', component: SignupComponent },
     { path: 'doctors', component: DoctorsComponent },
     { path: 'health', component: HealthComponent},
-    { path: 'orders', component: OrdersComponent }
+    { path: 'orders', component: OrdersComponent },
+    { path: 'maps', component: MapsComponent }
 ];
